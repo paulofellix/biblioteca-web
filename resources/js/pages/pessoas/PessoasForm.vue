@@ -170,7 +170,7 @@ export default {
 				nome: yup.string().required('Nome é obrigatório'),
 				cpf: yup.string().required('CPF é obrigatório'),
 				rg: yup.string().required('RG é obrigatório'),
-				telefone: yup.string().required('Telefone é obrigatório'),
+				telefone: yup.string(),
 				celular: yup.string().required('Celular é obrigatório'),
 				email: yup.string().required('Email é obrigatório'),
 				endereco: yup.string().required('Endereço é obrigatório'),
